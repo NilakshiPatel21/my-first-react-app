@@ -5,7 +5,7 @@ function Profile({ name, age, skills }) {
       <p>Age: {age}</p>
 
       <p>Skills:</p>
-      <ul>
+      <ul style={{ textAlign: "left" }}>
         {skills.map((skill, index) => (
           <li key={index}>{skill}</li>
         ))}
