@@ -1,4 +1,4 @@
-import Profile from "./Profile";
+/*import Profile from "./Profile";
 
 function App() {
   return (
@@ -39,5 +39,16 @@ const styles = {
   }
 };
 
-export default App;
+export default App; */
+
+import Test from "./Test";
+
+function App(){
+  return(
+    <div>
+      <Test name="Nilakshi" age="20" isTop={true} />
+       <Test name="Riya" age="21" isTop={false} />
+    </div>
+  )
+}
 

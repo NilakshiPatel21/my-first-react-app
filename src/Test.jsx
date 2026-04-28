@@ -1,3 +1,4 @@
+//Week 1
 function Profile( props) {
     return(
         <div style={{backgroundColor : "Violet", padding:"20px"}} >
@@ -19,6 +20,18 @@ function Welcome({name, age}){
 }
 
 export {Welcome , Profile};
+
+// Week 2 
+function drag({name , age , isTop= false}){
+    return(
+        <div>
+            <p>Name : {name}</p>
+            <p>Age : {age}</p>
+            <p>Top Skils : {isTop ?"yes" : "No"}</p>
+        </div>
+    )
+}
+
 
 /*in App.jsx 
 import {Profile, Welcome} from "./Profile";
